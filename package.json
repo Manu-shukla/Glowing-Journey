@@ -1,7 +1,9 @@
 {
   "name": "glowing-journey",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
+  "license": "MIT",
+  "main": "app.js",
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -9,7 +11,7 @@
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "express": "~4.15.5",
+    "express": "^4.15.5",
     "morgan": "~1.9.0",
     "pug": "2.0.0-beta11",
     "serve-favicon": "~2.4.5"
